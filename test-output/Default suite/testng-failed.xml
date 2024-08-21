@@ -5,11 +5,16 @@
     <classes>
       <class name="homePage.myTestCases">
         <methods>
+          <include name="RandomlySelectTheNumberOfVistor"/>
           <include name="mySetup"/>
           <include name="checkQtafflogo"/>
           <include name="RandomlyChangeTheLanguage"/>
+          <include name="FillHotelTab"/>
           <include name="CheckHotelSearchTabNotSelected"/>
           <include name="CheckDepature"/>
+          <include name="checkTheContactNumber"/>
+          <include name="checkTheDefaultCurrencyIsSAR"/>
+          <include name="checkTheDefaultlanguageIsEnglishTest"/>
         </methods>
       </class> <!-- homePage.myTestCases -->
     </classes>
